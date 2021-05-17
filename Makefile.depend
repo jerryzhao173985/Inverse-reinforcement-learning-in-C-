@@ -1,0 +1,50 @@
+# DO NOT DELETE
+
+main.o: maxent.h /usr/include/stdio.h /usr/include/features.h
+main.o: /usr/include/stdc-predef.h /usr/include/libio.h
+main.o: /usr/include/_G_config.h /usr/include/wchar.h /usr/include/stdlib.h
+main.o: /usr/include/alloca.h /usr/include/time.h /usr/include/xlocale.h
+main.o: /usr/include/dirent.h /usr/local/include/selforg/matrix.h
+main.o: /usr/include/string.h /usr/include/assert.h
+main.o: /usr/local/include/selforg/storeable.h
+main.o: /usr/local/include/selforg/abstractcontroller.h
+main.o: /usr/local/include/selforg/configurable.h
+main.o: /usr/local/include/selforg/stl_adds.h
+main.o: /usr/local/include/selforg/backcaller.h
+main.o: /usr/local/include/selforg/stl_map.h
+main.o: /usr/local/include/selforg/inspectable.h
+main.o: /usr/local/include/selforg/randomgenerator.h
+main.o: /usr/local/include/selforg/mac_drand48r.h /usr/include/limits.h
+main.o: /usr/include/limits.h /usr/local/include/selforg/sensormotorinfo.h
+main.o: /usr/local/include/selforg/types.h
+main.o: /usr/local/include/selforg/controller_misc.h
+main.o: /usr/local/include/selforg/noisegenerator.h
+main.o: /usr/local/include/selforg/teachable.h
+main.o: /usr/local/include/selforg/configurable.h
+main.o: /usr/local/include/selforg/parametrizable.h
+main.o: /usr/local/include/selforg/storeable.h
+main.o: /usr/local/include/selforg/randomgenerator.h
+maxent.o: maxent.h /usr/include/stdio.h /usr/include/features.h
+maxent.o: /usr/include/stdc-predef.h /usr/include/libio.h
+maxent.o: /usr/include/_G_config.h /usr/include/wchar.h /usr/include/stdlib.h
+maxent.o: /usr/include/alloca.h /usr/include/time.h /usr/include/xlocale.h
+maxent.o: /usr/include/dirent.h /usr/local/include/selforg/matrix.h
+maxent.o: /usr/include/string.h /usr/include/assert.h
+maxent.o: /usr/local/include/selforg/storeable.h
+maxent.o: /usr/local/include/selforg/abstractcontroller.h
+maxent.o: /usr/local/include/selforg/configurable.h
+maxent.o: /usr/local/include/selforg/stl_adds.h
+maxent.o: /usr/local/include/selforg/backcaller.h
+maxent.o: /usr/local/include/selforg/stl_map.h
+maxent.o: /usr/local/include/selforg/inspectable.h
+maxent.o: /usr/local/include/selforg/randomgenerator.h
+maxent.o: /usr/local/include/selforg/mac_drand48r.h /usr/include/limits.h
+maxent.o: /usr/include/limits.h /usr/local/include/selforg/sensormotorinfo.h
+maxent.o: /usr/local/include/selforg/types.h
+maxent.o: /usr/local/include/selforg/controller_misc.h
+maxent.o: /usr/local/include/selforg/noisegenerator.h
+maxent.o: /usr/local/include/selforg/teachable.h
+maxent.o: /usr/local/include/selforg/configurable.h
+maxent.o: /usr/local/include/selforg/parametrizable.h
+maxent.o: /usr/local/include/selforg/storeable.h
+maxent.o: /usr/local/include/selforg/randomgenerator.h
