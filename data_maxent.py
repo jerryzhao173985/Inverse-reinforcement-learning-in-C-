@@ -1,10 +1,3 @@
-"""
-Run maximum entropy inverse reinforcement learning on the gridworld MDP.
-
-Matthew Alger, 2015
-matthew.alger@anu.edu.au
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 
