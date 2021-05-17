@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-import irl.maxent as maxent
-import irl.mdp.gridworld as gridworld
-
 def main(grid_size, discount, n_trajectories, epochs, learning_rate):
     """
     Run maximum entropy inverse reinforcement learning on the gridworld MDP.
