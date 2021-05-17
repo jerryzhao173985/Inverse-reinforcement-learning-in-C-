@@ -1,3 +1,6 @@
+#Python Script and the GridWord Python API used to get data,
+#Start Position is always at left-down cornor
+#||Ground Truth|| goal is at right-upper cornor, only here has reward 1 otherwisr 0
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -69,15 +72,15 @@ def main(grid_size, discount, n_trajectories, epochs, learning_rate):
         np.savetxt(ao_file, row, delimiter=',', fmt='%1.3f')
     ao_file.close()
 
-    # plt.subplot(1, 2, 1)
-    # plt.pcolor(ground_r.reshape((grid_size, grid_size)))
-    # plt.colorbar()
-    # plt.title("Groundtruth reward")
-    # plt.subplot(1, 2, 2)
-    # plt.pcolor(r.reshape((grid_size, grid_size)))
-    # plt.colorbar()
-    # plt.title("Recovered reward")
-    # plt.show()
+    plt.subplot(1, 2, 1)
+    plt.pcolor(ground_r.reshape((grid_size, grid_size)))
+    plt.colorbar()
+    plt.title("Groundtruth reward")
+    plt.subplot(1, 2, 2)
+    plt.pcolor(r.reshape((grid_size, grid_size)))
+    plt.colorbar()
+    plt.title("Recovered reward")
+    plt.show()
 
 if __name__ == '__main__':
     main(5, 0.01, 20, 200, 0.01)
